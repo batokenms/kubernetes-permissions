@@ -4,8 +4,8 @@ metadata:
   name: example-clusterrolebinding
 subjects:
 - kind: ServiceAccount
-  name: default
-  namespace: default
+  name: example-serviceaccount
+  namespace: boutique
 roleRef:
   kind: ClusterRole
   name: example-clusterrole
