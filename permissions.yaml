@@ -21,4 +21,8 @@ roleRef:
   name: example-clusterrole
   apiGroup: rbac.authorization.k8s.io
   ---
-  
+  apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: example-serviceaccount
+  namespace: boutique
